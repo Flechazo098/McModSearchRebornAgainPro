@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.flechazo.MCMODWIKI.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mcmoditemsearchrebornagainpro.refmap.json",
+  "mixins": [
+    "GUIKeyDownMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
